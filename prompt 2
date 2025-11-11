@@ -1,0 +1,69 @@
+# 🎯 OBJECTIF
+Adapter la landing page de candidature à l’entreprise {company_name}, dont le site est {company_url}.
+
+# 🧩 CONTEXTE
+J’ai ajouté un dossier contenant un template de landing page que j’utilise pour mes candidatures.
+Je la personnalise à chaque fois pour une entreprise spécifique (contenu, couleurs, ton, visuels, etc.).
+Cette page doit mettre en avant mon profil de {profile_title} (ex: Chargé de projet digital | Product Owner certifié SAFe 5) et montrer ma compréhension de {company_name}.
+
+# 🪶 ÉTAPES À SUIVRE
+
+## 1️⃣ Nettoyage du template
+- Supprimer toutes les références à GitHub (liens, badges, repos, etc.)
+- Supprimer toute référence à Vercel (scripts, logos, mentions)
+- Supprimer tout tracking ou script d’analytics (Plausible, Google, etc.)
+
+## 2️⃣ Personnalisation visuelle
+- Extraire la palette de couleurs du site {company_url}
+- Appliquer ces couleurs au template :
+  - Couleur principale → {primary_color}
+  - Couleur secondaire → {secondary_color}
+  - Accent color → {accent_color}
+- Adapter la typographie et les styles pour refléter l’identité de marque de {company_name}
+- Harmoniser les boutons, titres et sections clés avec le style du site
+
+## 3️⃣ Personnalisation du contenu
+- Titre principal (Hero) : “Arnaud Lavesque — {profile_title}”
+- Sous-titre : “Passionné par la data, la stratégie digitale et l’automatisation.”
+- Ajouter une section “Pourquoi {company_name}” :
+  - Résumer en 2-3 phrases ce qui me plaît dans leur approche : {company_quote_or_vision}
+  - Relier à mon expertise {main_theme} (data, marketing digital, automatisation…)
+- Ajouter une section “Compétences clés” :
+  - {value_bullet_1}
+  - {value_bullet_2}
+  - {value_bullet_3}
+  - {value_bullet_4}
+- CTA final : 
+  🌐 Portfolio — www.arnaudlavesque.ch  
+  📧 Contact — contact@arnaudlavesque.ch
+
+## 4️⃣ Ton et forme
+- Style : professionnel, clair et moderne
+- Ton : curieux, précis, orienté performance
+- Ne pas inclure de jargon excessif
+- Mettre subtilement en avant la dimension internationale (France & Bali)
+
+
+
+
+Variable
+Description
+{company_name}
+Sigma Suisse
+{company_url}
+https://sigma.tech/
+{profile_title}
+Digital project manager / marketing , Data , Dev & IA
+{company_quote_or_vision}
+
+
+{main_theme}
+Digital project management ownership / SaFe5
+{primary_color} / {secondary_color} / {accent_color}
+bleu foncé, blanc
+{value_bullet_1..4}
+Digital project manager / marketing , Data , Dev & IA
+
+
+
+
